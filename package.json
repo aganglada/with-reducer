@@ -1,7 +1,7 @@
 {
   "name": "with-reducer",
   "version": "0.0.1",
-  "main": "dist/index.js",
+  "main": "index.js",
   "repository": "git@github.com:aganglada/with-reducer.git",
   "author": "aganglada <aganglada@gmail.com>",
   "license": "MIT",
