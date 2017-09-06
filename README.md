@@ -18,7 +18,7 @@ yarn add with-reducer
 
 > By doing that, you will get just for free a `dispatch` function into your props.
 
-```
+```js
 // example.js
 
 import React, { Component } from 'react';
@@ -61,7 +61,7 @@ export default withReducer(reducer)(Example);
 
 2. Create your reducer
 
-```
+```js
 // example.reducer.js
 
 import { INCREMENT, DECREMENT } from './example.actions';
@@ -84,7 +84,7 @@ export default (state, action) => {
 
 3. And then your actions
 
-```
+```js
 // example.actions.js
 
 export const INCREMENT = 'INCREMENT';
